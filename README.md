@@ -4,6 +4,12 @@ This algorithm was designed to perform lung segmentation on 2D CT scans from the
 ### Create and Activate a Virtual Environment
 Create a virtual environment (e.g., `.venv`) and activate it.
 
+For example, use: 
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```bash
+
 ### Install Dependencies
 Install the project dependencies using:
 ```bash

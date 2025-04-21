@@ -8,7 +8,7 @@ For example, use:
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-```bash
+```
 
 ### Install Dependencies
 Install the project dependencies using:

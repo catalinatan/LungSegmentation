@@ -11,11 +11,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
 
 ### Install Dependencies
-Install the project dependencies using:
-```bash
-pip install -e .
-```
-Then do: 
+Install the project dependencies using: 
 ```bash
 pip install -r requirements.txt
 ```

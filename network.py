@@ -8,8 +8,6 @@ from torchvision.transforms import CenterCrop
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
 import torch.optim as optim
-# REMEMBER SWITCH TO IPYB jupyter notebook 
-
 
 # Inspired by:
 # https://pyimagesearch.com/2021/11/08/u-net-training-image-segmentation-models-in-pytorch/
@@ -171,7 +169,7 @@ def test_network(net, test_loader):
     with torch.no_grad():
         for inputs, labels in tqdm(test_loader, desc="Testing"):
             # Forward pass
-           
+
             labels = labels.squeeze(1).long()  # Remove channel dimension
 
             outputs = net(inputs)

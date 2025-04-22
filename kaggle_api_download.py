@@ -16,6 +16,6 @@ for file in files:
         api.dataset_download_file(
             'nikhilpandey360/chest-xray-masks-and-labels',
             file_name=file.name,
-            path='desired_download_path',
+            path='download_path',
             force=True
         )

@@ -1,0 +1,9 @@
+[project]
+name = "unetcambridge"
+version = "2025.4.21"
+readme = "README.md"
+
+# Most students will use setuptools, though poetry is also an option
+[build-system]
+requires = ["setuptools",  "setuptools_scm"]
+build-backend = "setuptools.build_meta"
